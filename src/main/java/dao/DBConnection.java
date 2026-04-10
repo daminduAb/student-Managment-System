@@ -1,6 +1,6 @@
 package dao;
 import java.sql.*;
-//change 
+//db connection
 public class DBConnection {
 
    

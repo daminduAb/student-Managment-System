@@ -2,9 +2,13 @@ package dao;
 import java.sql.*;
 
 public class DBConnection {
-    private static final String URL = "jdbc:mysql://localhost:3306/rasika_ict";
-    private static final String USER = "root";
-    private static final String PASS = "123123"; // your password
+
+   
+    private static final String URL =
+        "jdbc:mysql://mysql-18875c94-damindu.d.aivencloud.com:27759/defaultdb" +
+        "?useSSL=true&requireSSL=true&serverTimezone=Asia/Colombo";
+    private static final String USER = "avnadmin";
+    private static final String PASS = "AVNS_kWAM8-45nWaQmfhIYVQ";
 
     public static Connection getConnection() throws Exception {
         Class.forName("com.mysql.cj.jdbc.Driver");

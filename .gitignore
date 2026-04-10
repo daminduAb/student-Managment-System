@@ -6,3 +6,4 @@
 *.class
 *.war
 *.ear
+/target/
